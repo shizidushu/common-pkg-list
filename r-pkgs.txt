@@ -39,8 +39,7 @@ list.of.packages <- c("Rcpp",
                       "swagger",
                       "config",
                       "tidypredict",
-                      "remotes",
-                      "nodbi"
+                      "remotes"
 )
 
 list.of.packages <- unique(list.of.packages)
@@ -50,6 +49,7 @@ if(length(new.packages)) install.packages(new.packages,
                                           repo = 'https://mirrors.tuna.tsinghua.edu.cn/CRAN/')
 
 remotes::install_github("richfitz/redux", upgrade = FALSE)
+devtools::install_github("ropensci/nodbi")
 devtools::install_github("tidyverse/ggplot2")
 devtools::install_github("ricardo-bion/ggtech", dependencies=TRUE)
 devtools::install_github("rstudio/httpuv")
