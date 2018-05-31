@@ -42,6 +42,7 @@ list.of.packages <- c("Rcpp",
                       "remotes",
                       "mailR",
                       "RJDBC",
+                      "rJava",
                       "RPostgreSQL"
 )
 
