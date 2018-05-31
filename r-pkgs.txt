@@ -39,7 +39,10 @@ list.of.packages <- c("Rcpp",
                       "swagger",
                       "config",
                       "tidypredict",
-                      "remotes"
+                      "remotes",
+                      "mailR",
+                      "RJDBC",
+                      "RPostgreSQL"
 )
 
 list.of.packages <- unique(list.of.packages)
