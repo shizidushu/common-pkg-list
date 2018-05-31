@@ -66,4 +66,4 @@ devtools::install_github("cosname/recharts")
 devtools::install_github("JohnCoene/echarts4r")
 
 
-devtools::install_github('shizidushu/RFunsInUse')
+devtools::install_github('shizidushu/RFunsInUse', dependencies=TRUE)
