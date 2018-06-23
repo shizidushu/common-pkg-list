@@ -1,0 +1,7 @@
+openssl-devel
+unixODBC-devel
+libssh2-devel
+libcurl-devel
+postgresql-devel
+libxml2-devel
+hiredis-devel
