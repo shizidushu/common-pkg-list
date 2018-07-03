@@ -41,7 +41,7 @@ list_of_pkgs <- c("Rcpp",
 )
 
 # remove the duplicates (in case)
-list_of_pkgs <- unique(list.of.packages)
+list_of_pkgs <- unique(list_of_pkgs)
 
 new_pkgs <- list_of_pkgs[!(list_of_pkgs %in% installed.packages()[,"Package"])]
 
