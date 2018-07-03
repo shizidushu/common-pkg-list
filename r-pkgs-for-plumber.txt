@@ -63,4 +63,4 @@ devtools::install_github('trestletech/plumber')
 devtools::install_github("cosname/recharts")
 devtools::install_github("JohnCoene/echarts4r")
 
-devtools::install_github('shizidushu/RFunsInUse', dependencies=TRUE)
+devtools::install_github('shizidushu/hfun', dependencies=TRUE)
