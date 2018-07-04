@@ -1,4 +1,5 @@
 list.of.packages <- c("Rcpp",
+                      "blogdown",
                       "devtools",
                       "glue",
                       "dbplyr",
@@ -68,5 +69,6 @@ devtools::install_github('trestletech/plumber')
 devtools::install_github("cosname/recharts")
 devtools::install_github("JohnCoene/echarts4r")
 
+blogdown::install_hugo()
 
 devtools::install_github('shizidushu/hfun', dependencies=TRUE)
