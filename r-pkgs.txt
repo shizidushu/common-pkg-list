@@ -46,7 +46,9 @@ list.of.packages <- c("Rcpp",
                       "rJava",
                       "RPostgreSQL",
                       "quantmod",
-                      "listviewer"
+                      "listviewer",
+                      "car",
+                      "ISLR"
 )
 
 list.of.packages <- unique(list.of.packages)
