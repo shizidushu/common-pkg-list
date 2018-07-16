@@ -48,7 +48,8 @@ list.of.packages <- c("Rcpp",
                       "quantmod",
                       "listviewer",
                       "car",
-                      "ISLR"
+                      "ISLR",
+                      "styler"
 )
 
 list.of.packages <- unique(list.of.packages)
