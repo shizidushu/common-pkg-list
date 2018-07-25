@@ -49,7 +49,8 @@ list.of.packages <- c("Rcpp",
                       "listviewer",
                       "car",
                       "ISLR",
-                      "styler"
+                      "styler",
+                      "flexdashboard"
 )
 
 list.of.packages <- unique(list.of.packages)
