@@ -37,7 +37,9 @@ list_of_pkgs <- c("Rcpp",
                   "remotes",
                   "mailR",
                   "RJDBC",
-                  "rJava"
+                  "rJava",
+                  "flexdashboard",
+                  "rlang"
 )
 
 # remove the duplicates (in case)
