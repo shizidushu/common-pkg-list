@@ -53,6 +53,7 @@ list.of.packages <- c("Rcpp",
                       "ISLR",
                       "styler",
                       "rlang",
+                      "argparser",
                       "flexdashboard"
 )
 
