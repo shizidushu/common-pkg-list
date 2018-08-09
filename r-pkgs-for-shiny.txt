@@ -50,6 +50,7 @@ if(length(new_pkgs)) {
   install.packages(new_pkgs)
 }
 
+devtools::install_github('trestletech/plumber')
 remotes::install_github("richfitz/redux", upgrade = FALSE)
 devtools::install_github("tidyverse/ggplot2")
 devtools::install_github("ricardo-bion/ggtech", dependencies=TRUE)
