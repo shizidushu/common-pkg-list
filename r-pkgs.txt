@@ -55,6 +55,7 @@ list.of.packages <- c("Rcpp",
                       "rlang",
                       "argparser",
                       "gghighlight",
+                      "pixiedust",
                       "flexdashboard"
 )
 
