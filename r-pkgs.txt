@@ -55,7 +55,11 @@ list.of.packages <- c("Rcpp",
                       "rlang",
                       "argparser",
                       "gghighlight",
+<<<<<<< HEAD
                       "promises",
+=======
+                      "pixiedust",
+>>>>>>> 79f60bbda032546f2d54343bb9f17fe10c95d8f5
                       "flexdashboard"
 )
 

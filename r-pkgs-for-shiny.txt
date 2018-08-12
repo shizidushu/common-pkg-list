@@ -37,7 +37,12 @@ list_of_pkgs <- c("Rcpp",
                       "remotes",
                       "mailR",
                       "RJDBC",
+<<<<<<< HEAD
                       "promises",
+=======
+                      "shinyjs",
+                      "pixiedust",
+>>>>>>> 79f60bbda032546f2d54343bb9f17fe10c95d8f5
                       "rJava"
 )
 
@@ -50,6 +55,7 @@ if(length(new_pkgs)) {
   install.packages(new_pkgs)
 }
 
+devtools::install_github('trestletech/plumber')
 remotes::install_github("richfitz/redux", upgrade = FALSE)
 devtools::install_github("tidyverse/ggplot2")
 devtools::install_github("ricardo-bion/ggtech", dependencies=TRUE)
@@ -59,3 +65,5 @@ devtools::install_github("hrbrmstr/metricsgraphics")
 devtools::install_github("rstudio/crosstalk")
 devtools::install_github("jcheng5/d3scatter")
 devtools::install_github("rstudio/leaflet")
+
+devtools::install_github('shizidushu/hfun', dependencies=TRUE)

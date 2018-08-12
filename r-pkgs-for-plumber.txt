@@ -39,7 +39,11 @@ list_of_pkgs <- c("Rcpp",
                   "RJDBC",
                   "rJava",
                   "flexdashboard",
+<<<<<<< HEAD
                   "promises",
+=======
+                  "pixiedust",
+>>>>>>> 79f60bbda032546f2d54343bb9f17fe10c95d8f5
                   "rlang"
 )
 
