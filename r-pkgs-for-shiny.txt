@@ -37,6 +37,7 @@ list_of_pkgs <- c("Rcpp",
                       "remotes",
                       "mailR",
                       "RJDBC",
+                      "promises",
                       "rJava"
 )
 
