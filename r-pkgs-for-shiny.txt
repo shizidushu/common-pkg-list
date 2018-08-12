@@ -37,12 +37,9 @@ list_of_pkgs <- c("Rcpp",
                       "remotes",
                       "mailR",
                       "RJDBC",
-<<<<<<< HEAD
                       "promises",
-=======
                       "shinyjs",
                       "pixiedust",
->>>>>>> 79f60bbda032546f2d54343bb9f17fe10c95d8f5
                       "rJava"
 )
 
