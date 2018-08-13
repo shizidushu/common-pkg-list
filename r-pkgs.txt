@@ -25,7 +25,6 @@ list.of.packages <- c("Rcpp",
                       "colorspace",
                       "viridis",
                       "htmltools",
-                      "DT",
                       "plotly",
                       "dygraphs",
                       "DiagrammeR",
@@ -67,6 +66,7 @@ new.packages <- list.of.packages[!(list.of.packages %in% installed.packages()[,"
 if(length(new.packages)) install.packages(new.packages, 
                                           repo = 'https://mirrors.tuna.tsinghua.edu.cn/CRAN/')
 
+devtools::install_github('rstudio/DT')
 remotes::install_github("richfitz/redux", upgrade = FALSE)
 devtools::install_github("ropensci/nodbi")
 devtools::install_github("tidyverse/ggplot2")
