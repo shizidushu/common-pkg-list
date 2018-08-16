@@ -40,6 +40,7 @@ list_of_pkgs <- c("Rcpp",
                       "future",
                       "shinyjs",
                       "pixiedust",
+                      "shinythemes"
                       "rJava"
 )
 

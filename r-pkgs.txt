@@ -57,6 +57,7 @@ list.of.packages <- c("Rcpp",
                       "promises",
                       "future",
                       "pixiedust",
+                      "shinythemes",
                       "flexdashboard"
 )
 
