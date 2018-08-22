@@ -67,6 +67,8 @@ new.packages <- list.of.packages[!(list.of.packages %in% installed.packages()[,"
 if(length(new.packages)) install.packages(new.packages, 
                                           repo = 'https://mirrors.tuna.tsinghua.edu.cn/CRAN/')
 
+update.packages(ask = FALSE, repos = 'https://cran.r-project.org')
+install.packages('knitr', repos = c('https://xran.yihui.name', 'https://cran.r-project.org'))
 devtools::install_github("ramnathv/htmlwidgets")
 devtools::install_github('rstudio/DT')
 remotes::install_github("richfitz/redux", upgrade = FALSE)
