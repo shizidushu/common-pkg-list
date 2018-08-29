@@ -58,7 +58,8 @@ list.of.packages <- c("Rcpp",
                       "future",
                       "pixiedust",
                       "shinythemes",
-                      "flexdashboard"
+                      "flexdashboard",
+                      "nofrills"
 )
 
 list.of.packages <- unique(list.of.packages)
