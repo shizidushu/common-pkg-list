@@ -5,7 +5,7 @@ apt-get update
 apt-get install -y libudunits2-dev libgdal-dev libgeos-dev libproj-dev 
 
 # install v8, needed for the R package V8 which reverse imports geojsonio and rmapshaper -> tmaptools -> tmap
-sudo apt-get -y install ibv8-dev
+sudo apt-get -y install libv8-dev
 
 # install jq, needed for the R package jqr whith reverse imports: geojson -> geojsonio -> rmapshaper -> tmaptools -> tmap
 apt-get install -y libjq-dev
