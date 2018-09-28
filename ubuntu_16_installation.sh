@@ -1,4 +1,5 @@
 # install script for ubuntu 16
+apt-get update
 
 # install fundamental spatial libraries (needed for sf, sp, rgdal, rgeos)
 add-apt-repository ppa:ubuntugis/ubuntugis-unstable
