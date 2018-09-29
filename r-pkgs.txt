@@ -63,7 +63,8 @@ list.of.packages <- c("Rcpp",
                       "magick",
                       "tmap",
                       "rgdal",
-                      "rgeos"
+                      "rgeos",
+                      "cowplot"
 )
 
 list.of.packages <- unique(list.of.packages)
