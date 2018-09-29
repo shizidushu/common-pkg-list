@@ -8,3 +8,9 @@ hiredis-devel
 libgit2-devel
 cairo-devel
 udunits2-devel
+gdal
+gdal-devel
+proj
+proj-devel
+proj-epsg
+proj-nad
