@@ -18,7 +18,6 @@ list.of.packages <- c("Rcpp",
                       "cronR",
                       "jsonlite",
                       "showtext",
-                      "ggplot2",
                       "ggmap",
                       "ggrepel",
                       "ggthemes",
@@ -75,11 +74,11 @@ if(length(new.packages)) install.packages(new.packages,
 
 update.packages(ask = FALSE, repos = 'https://cran.r-project.org')
 install.packages('knitr', repos = c('https://xran.yihui.name', 'https://cran.r-project.org'))
+devtools::install_github("hadley/tidyverse")
 devtools::install_github("ramnathv/htmlwidgets")
 devtools::install_github('rstudio/DT')
 remotes::install_github("richfitz/redux", upgrade = FALSE)
 devtools::install_github("ropensci/nodbi")
-devtools::install_github("tidyverse/ggplot2")
 devtools::install_github("rstudio/httpuv")
 devtools::install_github("jbkunst/highcharter")
 devtools::install_github("hrbrmstr/metricsgraphics")
