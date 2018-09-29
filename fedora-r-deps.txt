@@ -5,3 +5,5 @@ libcurl-devel
 postgresql-devel
 libxml2-devel
 hiredis-devel
+libgit2-devel
+cairo-devel
