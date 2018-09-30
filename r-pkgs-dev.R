@@ -1,5 +1,7 @@
 if (!require(devtools)) install.packages("devtools")
 
+devtools::install_github("r-lib/rlang", build_vignettes = TRUE)
+
 devtools::install_github("hadley/tidyverse")
 devtools::install_github("tidyverse/dplyr")
 devtools::install_github("tidyverse/ggplot2")
