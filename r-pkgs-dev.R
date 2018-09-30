@@ -23,6 +23,7 @@ devtools::install_github('ropensci/magick')
 update.packages(ask = FALSE, repos = 'https://cran.r-project.org')
 install.packages('knitr', repos = c('https://xran.yihui.name', 'https://cran.r-project.org'))
 devtools::install_github('trestletech/plumber')
+devtools::install_github("ropensci/writexl")
 devtools::install_github("r-lib/lobstr")
 
 list_of_packages <- c("blogdown", "car", "config", "cronR", "devtools", "future", 
