@@ -1,8 +1,9 @@
 list_of_packages <- c("blogdown", "car", "config", "cronR", "devtools", "future", 
-                      "ggmap", "ggrepel", "ggthemes", "ISLR", "knitr", "magick", "odbc", 
-                      "plotly", "pool", "promises", "pryr", "quantmod", "Rcpp", "rJava", 
-                      "rmarkdown", "RPostgreSQL", "sjmisc", "styler", "tidypredict", 
-                      "tidyverse", "viridis", "writexl", "XML")
+                      "ggmap", "ggrepel", "ggthemes", "ISLR", "knitr", "magick", "mailR", 
+                      "odbc", "openxlsx", "plotly", "pool", "promises", "pryr", "quantmod", 
+                      "Rcpp", "redux", "rJava", "RJDBC", "rmarkdown", "RPostgreSQL", 
+                      "sjmisc", "styler", "tidypredict", "tidyverse", "viridis", "writexl", 
+                      "XML")
 
 # dput(list_of_packages[order(list_of_packages)])
 
@@ -16,4 +17,4 @@ devtools::install_github('trestletech/plumber')
 devtools::install_github("r-lib/lobstr")
 
 blogdown::install_hugo()
-devtools::install_github('shizidushu/hfun', dependencies=TRUE)
+devtools::install_github('shizidushu/hfun')
