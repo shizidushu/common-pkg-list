@@ -1,4 +1,5 @@
-install.packages("devtools")
+if (!require(devtools)) install.packages("devtools")
+
 devtools::install_github("hadley/tidyverse")
 devtools::install_github('rstudio/blogdown')
 devtools::install_github('ropensci/magick')
