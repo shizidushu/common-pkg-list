@@ -1,4 +1,4 @@
-list_of_packages <- c("blogdown", "car", "config", "cronR", "devtools", "future", 
+list_of_packages <- c("blogdown", "car", "config", "cronR", "devtools", "DiagrammeR", "future", 
                       "ggmap", "ggrepel", "ggthemes", "ISLR", "knitr", "magick", "mailR", 
                       "odbc", "openxlsx", "plotly", "pool", "promises", "pryr", "quantmod", 
                       "Rcpp", "redux", "rJava", "RJDBC", "rmarkdown", "RPostgreSQL", 
