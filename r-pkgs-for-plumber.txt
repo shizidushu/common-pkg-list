@@ -41,7 +41,8 @@ list_of_pkgs <- c("Rcpp",
                   "promises",
                   "future",
                   "pixiedust",
-                  "rlang"
+                  "rlang",
+                  "storr"
 )
 
 # remove the duplicates (in case)
