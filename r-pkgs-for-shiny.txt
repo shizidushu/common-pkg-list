@@ -41,7 +41,8 @@ list_of_pkgs <- c("Rcpp",
                       "shinyjs",
                       "pixiedust",
                       "shinythemes",
-                      "rJava"
+                      "rJava",
+                      "storr"
 )
 
 # remove the duplicates (in case)
