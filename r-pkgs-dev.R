@@ -15,7 +15,9 @@ new_packages <- list_of_packages[! list_of_packages %in% installed.packages()[,"
 
 if(length(new_packages)) install.packages(new_packages)
 
-blogdown::install_hugo()
+while (Sys.which("hugo") == "") {
+  blogdown::install_hugo()
+}
 devtools::install_github('shizidushu/hfun')
 
 devtools::install_github('rstudio/blogdown')
