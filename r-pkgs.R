@@ -3,7 +3,7 @@ list_of_packages <- c("blogdown", "car", "config", "cronR", "devtools", "Diagram
                       "odbc", "openxlsx", "plotly", "pool", "promises", "pryr", "quantmod", 
                       "Rcpp", "redux", "rJava", "RJDBC", "rmarkdown", "RPostgreSQL", 
                       "sjmisc", "styler", "tidypredict", "tidyverse", "viridis", "writexl", 
-                      "XML")
+                      "XML", "usethis")
 
 # dput(list_of_packages[order(list_of_packages)])
 
