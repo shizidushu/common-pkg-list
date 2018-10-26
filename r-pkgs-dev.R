@@ -1,11 +1,15 @@
 if (!require(devtools)) install.packages("devtools")
 
-list_of_packages <- c("blogdown", "car", "config", "cronR", "devtools", "future", 
-                      "ggmap", "ggrepel", "ggthemes", "ISLR", "knitr", "magick", "mailR", 
-                      "odbc", "openxlsx", "plotly", "pool", "promises", "pryr", "quantmod", 
-                      "Rcpp", "redux", "rJava", "RJDBC", "rmarkdown", "RPostgreSQL", 
-                      "sjmisc", "styler", "tidypredict", "tidyverse", "viridis", "writexl", 
-                      "XML")
+list_of_packages <- c("blogdown", "car", "colorspace", "config", "cronR", "dbplyr", 
+                      "devtools", "DiagrammeR", "dygraphs", "flexdashboard", "future", 
+                      "ggmap", "ggplot2", "ggrepel", "ggthemes", "glue", "htmltools", 
+                      "ISLR", "jsonlite", "knitr", "lubridate", "magick", "magrittr", 
+                      "mailR", "odbc", "openxlsx", "pander", "pixiedust", "plotly", 
+                      "pool", "promises", "pryr", "purrr", "quantmod", "Rcpp", "readr", 
+                      "readxl", "redux", "remotes", "rJava", "RJDBC", "rlang", "rmarkdown", 
+                      "RPostgreSQL", "shinyjs", "shinythemes", "showtext", "sjmisc", 
+                      "storr", "styler", "swagger", "tidypredict", "tidyverse", "tinytex", 
+                      "urltools", "viridis", "writexl", "XML")
 
 # dput(list_of_packages[order(list_of_packages)])
 
@@ -15,18 +19,35 @@ new_packages <- list_of_packages[! list_of_packages %in% installed.packages()[,"
 
 if(length(new_packages)) install.packages(new_packages)
 
-while (Sys.which("hugo") == "") {
-  blogdown::install_hugo()
-}
+# It seems hugo installed for root user and other users need to install their own hugo
+# while (Sys.which("hugo") == "") {
+#   blogdown::install_hugo()
+# }
+
 devtools::install_github('shizidushu/hfun')
 
+
+devtools::install_github("rstudio/httpuv")
+devtools::install_github("ramnathv/htmlwidgets")
+devtools::install_github('rstudio/DT')
+devtools::install_github("jbkunst/highcharter")
+devtools::install_github("hrbrmstr/metricsgraphics")
+devtools::install_github("rstudio/crosstalk")
+devtools::install_github("jcheng5/d3scatter")
+devtools::install_github("rstudio/leaflet")
+devtools::install_github("cosname/recharts")
+devtools::install_github("JohnCoene/echarts4r")
+
 devtools::install_github('rstudio/blogdown')
+remotes::install_github("richfitz/redux", upgrade = FALSE)
 devtools::install_github('ropensci/magick')
 update.packages(ask = FALSE, repos = 'https://cran.r-project.org')
 install.packages('knitr', repos = c('https://xran.yihui.name', 'https://cran.r-project.org'))
 devtools::install_github('trestletech/plumber')
 devtools::install_github("ropensci/writexl")
 devtools::install_github("r-lib/lobstr")
+
+
 
 
 devtools::install_github("r-lib/rlang", build_vignettes = TRUE)
