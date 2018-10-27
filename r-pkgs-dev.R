@@ -19,6 +19,7 @@ devtools::install_github("jcheng5/d3scatter")
 devtools::install_github("rstudio/leaflet")
 devtools::install_github("cosname/recharts")
 devtools::install_github("JohnCoene/echarts4r")
+devtools::install_github("lchiffon/wordcloud2")
 
 devtools::install_github('rstudio/blogdown')
 remotes::install_github("richfitz/redux", upgrade = FALSE)
