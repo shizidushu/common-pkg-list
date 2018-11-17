@@ -8,7 +8,7 @@ list_of_packages <- c("blogdown", "car", "colorspace", "config", "cronR", "dbply
                       "rlang", "rmarkdown", "ROCR", "rpart.plot", "RPostgreSQL", "shinyjs", 
                       "shinythemes", "showtext", "sjmisc", "storr", "styler", "swagger", 
                       "tidypredict", "tidyverse", "tinytex", "urltools", "viridis", 
-                      "writexl", "XML", "reticulate", "cowplot", "httr", "rio", "formattable")
+                      "writexl", "XML", "reticulate", "cowplot", "httr", "rio", "formattable", "ezknitr")
 
 # dput(sort(list_of_packages))
 
