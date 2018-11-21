@@ -1,17 +1,18 @@
-list_of_packages <- c("blogdown", "car", "colorspace", "config", "cronR", "dbplyr", 
-                      "devtools", "DiagrammeR", "dygraphs", "faraway", "flexdashboard", 
-                      "future", "ggmap", "ggplot2", "ggrepel", "ggthemes", "glue", 
-                      "htmltools", "ISLR", "jsonlite", "knitr", "lubridate", "magick", 
-                      "magrittr", "mailR", "odbc", "openxlsx", "pander", "pixiedust", 
-                      "plotly", "pool", "promises", "pryr", "purrr", "quantmod", "rattle", 
-                      "Rcpp", "readr", "readxl", "redux", "remotes", "rJava", "RJDBC", 
-                      "rlang", "rmarkdown", "ROCR", "rpart.plot", "RPostgreSQL", "shinyjs", 
-                      "shinythemes", "showtext", "sjmisc", "storr", "styler", "swagger", 
-                      "tidypredict", "tidyverse", "tinytex", "urltools", "viridis", 
-                      "writexl", "XML", "reticulate", "cowplot", "httr", "rio", "formattable",
-                      "ezknitr", "shiny.router", "clValid", "argparse", "optparse")
+# install package that meant to be used
+if (!require(devtools)) install.packages("devtools")
 
-# dput(sort(list_of_packages))
+list_of_packages <- c("car", "config", "cowplot", "dbplyr", "devtools", "dplyr", 
+                      "DT", "flexdashboard", "formattable", "future", "ggmap", "ggplot2", 
+                      "ggrepel", "ggthemes", "glue", "htmltools", "htmlwidgets", "httpuv", 
+                      "httr", "jsonlite", "knitr", "lubridate", "magrittr", "mailR", 
+                      "odbc", "openxlsx", "optparse", "pander", "plotly", "plumber", 
+                      "pool", "promises", "purrr", "Rcpp", "readr", "readxl", "redux", 
+                      "remotes", "rlang", "rmarkdown", "shiny.router", "shinyjs", "shinythemes", 
+                      "showtext", "sjmisc", "stringr", "styler", "swagger", "tidyr", 
+                      "tidyverse", "urltools", "viridis", "wordcloud2", "writexl", 
+                      "XML")
+
+# dput(sort(unique(list_of_packages)))
 
 list_of_packages <- unique(list_of_packages)
 

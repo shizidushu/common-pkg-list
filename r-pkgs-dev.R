@@ -1,14 +1,19 @@
-list_of_packages <- c("brms", "sf")
+# experimental
 
-# dput(sort(list_of_packages))
+
+list_of_packages <- c("blogdown", "brms", "clValid", "colorspace", "cronR", "DiagrammeR", 
+                      "dygraphs", "ezknitr", "faraway", "ISLR", "leaflet", "magick", 
+                      "pixiedust", "pryr", "quantmod", "rattle", "reticulate", "rio", 
+                      "rJava", "RJDBC", "ROCR", "rpart.plot", "RPostgreSQL", "sf", 
+                      "storr", "tinytex", "tidypredict")
+
+# dput(sort(unique(list_of_packages)))
 
 list_of_packages <- unique(list_of_packages)
 
 new_packages <- list_of_packages[! list_of_packages %in% installed.packages()[,"Package"] ]
 
 if(length(new_packages)) install.packages(new_packages)
-
-
 
 if (!require(devtools)) install.packages("devtools")
 
@@ -57,7 +62,7 @@ devtools::install_github("tidyverse/magrittr")
 devtools::install_github("tidyverse/tidyr")
 devtools::install_github("tidyverse/reprex")
 devtools::install_github("tidyverse/dbplyr")
-#devtools::install_github("tidyverse/lubridate")
+devtools::install_github("tidyverse/lubridate")
 devtools::install_github("tidyverse/tidyselect")
 devtools::install_github("tidyverse/modelr")
 devtools::install_github("tidyverse/readxl")
