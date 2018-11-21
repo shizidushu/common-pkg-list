@@ -9,7 +9,7 @@ list_of_packages <- c("blogdown", "car", "colorspace", "config", "cronR", "dbply
                       "shinythemes", "showtext", "sjmisc", "storr", "styler", "swagger", 
                       "tidypredict", "tidyverse", "tinytex", "urltools", "viridis", 
                       "writexl", "XML", "reticulate", "cowplot", "httr", "rio", "formattable",
-                      "ezknitr", "shiny.router", "clValid", "argparse")
+                      "ezknitr", "shiny.router", "clValid", "argparse", "optparse")
 
 # dput(sort(list_of_packages))
 
