@@ -5,7 +5,7 @@ list_of_packages <- c("blogdown", "brms", "clValid", "colorspace", "cronR", "Dia
                       "dygraphs", "ezknitr", "faraway", "ISLR", "leaflet", "magick", 
                       "pixiedust", "pryr", "quantmod", "rattle", "reticulate", "rio", 
                       "rJava", "RJDBC", "ROCR", "rpart.plot", "RPostgreSQL", "sf", 
-                      "storr", "tinytex", "tidypredict")
+                      "storr", "tinytex", "tidypredict", "cowplot", "ggpubr")
 
 # dput(sort(unique(list_of_packages)))
 
