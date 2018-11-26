@@ -1,13 +1,13 @@
 # experimental
 
 
-list_of_packages <- c("blogdown", "brms", "clValid", "colorspace", "cronR", "DiagrammeR", 
-                      "dygraphs", "ezknitr", "faraway", "ISLR", "leaflet", "magick", 
-                      "pixiedust", "pryr", "quantmod", "rattle", "reticulate", "rio", 
-                      "rJava", "RJDBC", "ROCR", "rpart.plot", "RPostgreSQL", "sf", 
-                      "storr", "tinytex", "tidypredict", "cowplot", "ggpubr", "reprex",
-                      "highcharter", "metricsgraphics", "crosstalk", "leaflet", "blogdown",
-                      "viridis","dbplyr","magick",  "hms")
+list_of_packages <- c("blogdown", "brms", "clValid", "colorspace", "cowplot", "cronR", 
+                      "crosstalk", "dbplyr", "DiagrammeR", "dygraphs", "ezknitr", "faraway", 
+                      "ggpubr", "highcharter", "hms", "ISLR", "leaflet", "magick", 
+                      "metricsgraphics", "pixiedust", "pryr", "quantmod", "rattle", 
+                      "reprex", "reticulate", "rio", "rJava", "RJDBC", "ROCR", "rpart.plot", 
+                      "RPostgreSQL", "sf", "storr", "tidypredict", "tinytex", "viridis"
+)
 
 # dput(sort(unique(list_of_packages)))
 
