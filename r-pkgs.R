@@ -21,6 +21,7 @@ if(length(new_packages)) install.packages(new_packages)
 
 devtools::install_github("thomasp85/patchwork")
 
+devtools::install_github("hrbrmstr/decapitated")
 if (!dir.exists('/home/rstudio/bin/')) {dir.create('/home/rstudio/bin/')}
 decapitated::download_chromium('/home/rstudio/bin/')
 write('HEADLESS_CHROME=/home/rstudio/bin/chrome-linux/chrome',file="/usr/local/lib/R/etc/Renviron",append=TRUE)
