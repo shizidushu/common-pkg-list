@@ -25,7 +25,7 @@ devtools::install_github("thomasp85/patchwork")
 
 wdman:::selenium_check(verbose = TRUE)
 #wdman:::gecko_check(verbose = TRUE)
-#wdman:::chrome_check(verbose = TRUE)
+wdman:::chrome_check(verbose = TRUE)
 wdman:::phantom_check(verbose = TRUE)
 # rD <- RSelenium::rsDriver()
 # rD[["server"]]$stop()
