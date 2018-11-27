@@ -33,4 +33,7 @@ wdman:::phantom_check(verbose = TRUE)
 devtools::install_github("hrbrmstr/decapitated")
 if (!dir.exists('~/bin')) {dir.create('~/bin')}
 loc <- decapitated::download_chromium('~/bin')
-write(paste0('HEADLESS_CHROME=', loc), file="/usr/local/lib/R/etc/Renviron",append=TRUE)
+Sys.setenv(HEADLESS_CHROME=loc)
+
+# root permission need if write
+#write(paste0('HEADLESS_CHROME=', loc), file="/usr/local/lib/R/etc/Renviron",append=TRUE)
