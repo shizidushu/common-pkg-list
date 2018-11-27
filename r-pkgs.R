@@ -22,5 +22,7 @@ if(length(new_packages)) install.packages(new_packages)
 
 devtools::install_github("thomasp85/patchwork")
 
-selServ <- wdman::selenium(verbose = TRUE)
-selServ$stop()
+wdman:::selenium_check(verbose = TRUE)
+wdman:::gecko_check(verbose = TRUE)
+wdman:::chrome_check(verbose = TRUE)
+wdman:::phantom_check(verbose = TRUE)
