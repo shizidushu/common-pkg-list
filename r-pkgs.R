@@ -9,8 +9,8 @@ list_of_packages <- c("car", "config", "cowplot", "devtools", "dplyr", "DT", "fl
                       "promises", "purrr", "Rcpp", "readr", "readxl", "redux", "remotes", 
                       "rlang", "rmarkdown", "RSelenium", "shiny.router", "shinyjs", 
                       "shinythemes", "showtext", "sjmisc", "stringr", "styler", "swagger", 
-                      "tidyr", "tidyverse", "urltools", "wordcloud2", "writexl", "XML"
-)
+                      "tidyr", "tidyverse", "urltools", "wdman", "wordcloud2", "writexl", 
+                      "XML")
 
 # dput(sort(unique(list_of_packages)))
 
@@ -22,6 +22,8 @@ if(length(new_packages)) install.packages(new_packages)
 
 devtools::install_github("thomasp85/patchwork")
 
+selServ <- wdman::selenium(verbose = TRUE)
+selServ$stop()
 rD <- RSelenium::rsDriver(browser = "firefox")
 rD[["server"]]$stop()
 rD <- RSelenium::rsDriver(browser = "chrome")
