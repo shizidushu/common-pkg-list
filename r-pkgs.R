@@ -29,3 +29,8 @@ wdman:::chrome_check(verbose = TRUE)
 wdman:::phantom_check(verbose = TRUE)
 # rD <- RSelenium::rsDriver()
 # rD[["server"]]$stop()
+
+devtools::install_github("hrbrmstr/decapitated")
+if (!dir.exists('~/bin')) {dir.create('~/bin')}
+loc <- decapitated::download_chromium('~/bin')
+write(paste0('HEADLESS_CHROME=', loc), file="/usr/local/lib/R/etc/Renviron",append=TRUE)
