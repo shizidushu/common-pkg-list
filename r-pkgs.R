@@ -20,6 +20,7 @@ new_packages <- list_of_packages[! list_of_packages %in% installed.packages()[,"
 
 if(length(new_packages)) install.packages(new_packages)
 
+devtools::install_github('shizidushu/hfun')
 devtools::install_github("thomasp85/patchwork")
 
 # wdman:::selenium_check(verbose = TRUE)
