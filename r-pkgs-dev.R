@@ -1,13 +1,13 @@
 # experimental
 
 
-list_of_packages <- c("blogdown", "brms", "clValid", "colorspace", "cowplot", "cronR", 
-                      "crosstalk", "dbplyr", "DiagrammeR", "dygraphs", "ezknitr", "faraway", 
-                      "ggpubr", "highcharter", "hms", "ISLR", "leaflet", "magick", 
-                      "metricsgraphics", "pixiedust", "pryr", "quantmod", "rattle", 
-                      "reprex", "reticulate", "rio", "rJava", "RJDBC", "ROCR", "rpart.plot", 
-                      "RPostgreSQL", "sf", "storr", "tidypredict", "tinytex", "viridis"
-)
+list_of_packages <- c("addinslist", "blogdown", "brms", "clValid", "colorspace", 
+                      "colourpicker", "cowplot", "cronR", "crosstalk", "dbplyr", "DiagrammeR", 
+                      "dygraphs", "ezknitr", "faraway", "ggedit", "ggpubr", "highcharter", 
+                      "hms", "ISLR", "leaflet", "magick", "metricsgraphics", "pixiedust", 
+                      "pryr", "quantmod", "rattle", "reprex", "reticulate", "rio", 
+                      "rJava", "RJDBC", "ROCR", "rpart.plot", "RPostgreSQL", "sf", 
+                      "storr", "testthis", "tidypredict", "tinytex", "viridis")
 
 # dput(sort(unique(list_of_packages)))
 
@@ -29,6 +29,13 @@ devtools::install_github("rstudio/radix")
 devtools::install_github('shizidushu/hfun')
 devtools::install_github("r-lib/lobstr")
 devtools::install_github("r-lib/rlang", build_vignettes = TRUE)
+
+
+devtools::install_github('mwip/beautifyR')
+devtools::install_github("calligross/ggthemeassist")
+devtools::install_github("lbusett/insert_table")
+devtools::install_github("gadenbuie/regexplain")
+devtools::install_github("lorenzwalthert/strcode")
 
 #devtools::install_github("cosname/recharts")
 #devtools::install_github("JohnCoene/echarts4r")
