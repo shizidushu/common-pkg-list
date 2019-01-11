@@ -23,17 +23,17 @@ if(length(new_packages)) install.packages(new_packages)
 devtools::install_github('shizidushu/hfun')
 devtools::install_github("thomasp85/patchwork")
 
-wdman:::selenium_check(verbose = TRUE)
-wdman:::gecko_check(verbose = TRUE)
-wdman:::chrome_check(verbose = TRUE)
-wdman:::phantom_check(verbose = TRUE)
+# wdman:::selenium_check(verbose = TRUE)
+# wdman:::gecko_check(verbose = TRUE)
+# wdman:::chrome_check(verbose = TRUE)
+# wdman:::phantom_check(verbose = TRUE)
 # rD <- RSelenium::rsDriver()
 # rD[["server"]]$stop()
 
-devtools::install_github("hrbrmstr/decapitated")
-if (!dir.exists('~/bin')) {dir.create('~/bin')}
-loc <- decapitated::download_chromium('~/bin')
-Sys.setenv(HEADLESS_CHROME=loc)
+# devtools::install_github("hrbrmstr/decapitated")
+# if (!dir.exists('~/bin')) {dir.create('~/bin')}
+# loc <- decapitated::download_chromium('~/bin')
+# Sys.setenv(HEADLESS_CHROME=loc)
 
 # root permission need if write
 #write(paste0('HEADLESS_CHROME=', loc), file="/usr/local/lib/R/etc/Renviron",append=TRUE)
