@@ -8,7 +8,7 @@ list_of_packages <- c("addinslist", "blogdown", "brms", "clValid", "colorspace",
                       "magick", "metricsgraphics", "pixiedust", "pryr", "quantmod", 
                       "rattle", "reprex", "reticulate", "rio", "rJava", "RJDBC", "ROCR", 
                       "rpart.plot", "RPostgreSQL", "RSelenium", "sf", "shiny.router", 
-                      "storr", "testthis", "tidypredict", "tinytex", "viridis", "wdman"
+                      "storr", "testthat", "testthis", "tidypredict", "viridis", "wdman"
 )
 
 # dput(sort(unique(list_of_packages)))
