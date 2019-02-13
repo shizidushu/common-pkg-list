@@ -1,16 +1,17 @@
 # install package that meant to be used
 if (!require(devtools)) install.packages("devtools")
 
-list_of_packages <- c("car", "config", "cowplot", "devtools", "dplyr", "DT", "flexdashboard", 
-                      "forcats", "formattable", "future", "ggmap", "ggplot2", "ggrepel", 
-                      "ggthemes", "glue", "htmltools", "htmlwidgets", "httpuv", "httr", 
-                      "jsonlite", "knitr", "lubridate", "magrittr", "mailR", "odbc", 
-                      "openxlsx", "optparse", "pander", "plotly", "plumber", "pool", 
-                      "promises", "purrr", "Rcpp", "readr", "readxl", "redux", "remotes", 
-                      "rlang", "rmarkdown", "RSelenium", "shiny.router", "shinyjs", 
+list_of_packages <- c("car", "caret", "config", "cowplot", "devtools", "dplyr", "DT", 
+                      "flexdashboard", "forcats", "formattable", "future", "gganimate", 
+                      "ggplot2", "ggrepel", "ggstatsplot", "ggthemes", "glue", "htmltools", 
+                      "htmlwidgets", "httpuv", "httr", "jose", "jsonlite", "knitr", 
+                      "lubridate", "magrittr", "mailR", "mindr", "odbc", "openxlsx", 
+                      "optparse", "pander", "plotly", "plumber", "pool", "promises", 
+                      "purrr", "ranger", "Rcpp", "readr", "readxl", "rebus", "redux", 
+                      "remotes", "rlang", "rmarkdown", "shinydashboard", "shinyjs", 
                       "shinythemes", "showtext", "sjmisc", "stringr", "styler", "swagger", 
-                      "tidyr", "tidyverse", "urltools", "wdman", "wordcloud2", "writexl", 
-                      "XML", "jose", "rebus", "shinydashboard")
+                      "tidyr", "tidyverse", "urltools", "wordcloud2", "writexl", "XML"
+)
 
 # dput(sort(unique(list_of_packages)))
 
@@ -21,19 +22,5 @@ new_packages <- list_of_packages[! list_of_packages %in% installed.packages()[,"
 if(length(new_packages)) install.packages(new_packages)
 
 devtools::install_github('shizidushu/hfun')
-devtools::install_github("thomasp85/patchwork")
 
-# wdman:::selenium_check(verbose = TRUE)
-# wdman:::gecko_check(verbose = TRUE)
-# wdman:::chrome_check(verbose = TRUE)
-# wdman:::phantom_check(verbose = TRUE)
-# rD <- RSelenium::rsDriver()
-# rD[["server"]]$stop()
 
-# devtools::install_github("hrbrmstr/decapitated")
-# if (!dir.exists('~/bin')) {dir.create('~/bin')}
-# loc <- decapitated::download_chromium('~/bin')
-# Sys.setenv(HEADLESS_CHROME=loc)
-
-# root permission need if write
-#write(paste0('HEADLESS_CHROME=', loc), file="/usr/local/lib/R/etc/Renviron",append=TRUE)
