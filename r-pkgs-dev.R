@@ -1,11 +1,11 @@
 # experimental
 
 
-list_of_packages <- c("addinslist", "blogdown", "brms", "clValid", "colorspace", 
+list_of_packages <- c("addinslist", "blogdown", "brms", "caret", "clValid", "colorspace", 
                       "colourpicker", "cowplot", "cronR", "crosstalk", "dbplyr", "DiagrammeR", 
                       "dygraphs", "ezknitr", "faraway", "formattable", "ggedit", "ggmap", 
                       "ggpubr", "highcharter", "hms", "ISLR", "JuliaCall", "leaflet", 
-                      "magick", "metricsgraphics", "pixiedust", "pryr", "quantmod", 
+                      "magick", "metricsgraphics", "pixiedust", "pryr", "quantmod", "ranger", 
                       "rattle", "reprex", "reticulate", "rio", "rJava", "RJDBC", "ROCR", 
                       "rpart.plot", "RPostgreSQL", "RSelenium", "sf", "shiny.router", 
                       "storr", "testthat", "testthis", "tidypredict", "viridis", "wdman"
