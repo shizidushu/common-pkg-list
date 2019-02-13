@@ -3,7 +3,7 @@ if (!require(devtools)) install.packages("devtools")
 
 list_of_packages <- c("car", "config", "cowplot", "devtools", "dplyr", "DT", 
                       "flexdashboard", "forcats", "formattable", "future", "gganimate", 
-                      "ggplot2", "ggrepel", "ggstatsplot", "ggthemes", "glue", "htmltools", 
+                      "ggplot2", "ggrepel", "ggpubr", "ggthemes", "glue", "htmltools", 
                       "htmlwidgets", "httpuv", "httr", "jose", "jsonlite", "knitr", 
                       "lubridate", "magrittr", "mailR", "mindr", "odbc", "openxlsx", 
                       "optparse", "pander", "plotly", "plumber", "pool", "promises", 
