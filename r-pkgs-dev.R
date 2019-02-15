@@ -18,28 +18,28 @@ list_of_packages <- unique(list_of_packages)
 
 new_packages <- list_of_packages[! list_of_packages %in% installed.packages()[,"Package"] ]
 
-if(length(new_packages)) install.packages(new_packages, quiet = TRUE)
+if(length(new_packages)) install.packages(new_packages)
 
-if (!require(devtools)) install.packages("devtools", quiet = TRUE)
+if (!require(devtools)) install.packages("devtools")
 
 # It seems hugo installed for root user and other users need to install their own hugo
 # while (!file.exists("/root/bin/hugo")) {
 #   blogdown::install_hugo()
 # }
 
-devtools::install_github("rstudio/radix", quiet = TRUE)
+devtools::install_github("rstudio/radix")
 
-devtools::install_github('shizidushu/hfun', quiet = TRUE)
-devtools::install_github("r-lib/lobstr", quiet = TRUE)
+devtools::install_github('shizidushu/hfun')
+devtools::install_github("r-lib/lobstr")
 devtools::install_github("r-lib/rlang", build_vignettes = TRUE)
 
 
-devtools::install_github('mwip/beautifyR', quiet = TRUE)
-devtools::install_github("calligross/ggthemeassist", quiet = TRUE)
-devtools::install_github("lbusett/insert_table", quiet = TRUE)
-devtools::install_github("gadenbuie/regexplain", quiet = TRUE)
-devtools::install_github("lorenzwalthert/strcode", quiet = TRUE)
-devtools::install_github("thomasp85/patchwork", quiet = TRUE)
+devtools::install_github('mwip/beautifyR')
+devtools::install_github("calligross/ggthemeassist")
+devtools::install_github("lbusett/insert_table")
+devtools::install_github("gadenbuie/regexplain")
+devtools::install_github("lorenzwalthert/strcode")
+devtools::install_github("thomasp85/patchwork")
 
 #devtools::install_github("cosname/recharts")
 #devtools::install_github("JohnCoene/echarts4r")
