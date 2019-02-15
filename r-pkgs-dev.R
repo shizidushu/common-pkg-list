@@ -19,7 +19,7 @@ list_of_packages <- unique(list_of_packages)
 
 new_packages <- list_of_packages[! list_of_packages %in% installed.packages()[,"Package"] ]
 
-if(length(new_packages)) install.packages(new_packages)
+if(length(new_packages)) install.packages(new_packages, quiet = TRUE)
 
 if (!require(devtools)) install.packages("devtools")
 
