@@ -10,7 +10,7 @@ list_of_packages <- c("addinslist", "blogdown", "brms", "caret", "clValid", "col
                       "rpart.plot", "RPostgreSQL", "RSelenium", "sf", "shiny.router", 
                       "storr", "testthat", "testthis", "tidypredict", "viridis", "wdman",
                       "cowplot","flexdashboard", "formattable", "mindr", "pander","gganimate", "styler",
-                      "dummies", "gifski"
+                      "dummies", "gifski", "tailr"
 )
 
 # dput(sort(unique(list_of_packages)))
