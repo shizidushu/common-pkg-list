@@ -23,5 +23,6 @@ if(length(new_packages)) install.packages(new_packages)
 
 devtools::install_github('shizidushu/hfun')
 devtools::install_github('bbc/bbplot')
+remotes::install_github("rstudio/gt")
 
 
