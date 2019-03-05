@@ -8,7 +8,7 @@ list_of_packages <- c("car", "config",  "devtools", "dplyr", "DT",
                       "lubridate", "magrittr", "mailR", "odbc", "openxlsx", 
                       "optparse",  "plotly", "plumber", "pool", "promises", 
                       "purrr", "Rcpp", "readr", "readxl", "rebus", "redux", 
-                      "rlang", "rmarkdown", "shinydashboard", "shinyjs", 
+                      "rlang", "rmarkdown", "shinydashboard", "shinyjs", "reticulate",
                       "shinythemes", "showtext", "sjmisc", "stringr", "rlist",
                       "tidyr", "tidyverse", "urltools", "wordcloud2", "writexl", "XML", "blastula"
 )
