@@ -10,7 +10,7 @@ list_of_packages <- c("addinslist", "blogdown", "brms", "caret", "clValid", "col
                       "rpart.plot", "RPostgreSQL", "RSelenium", "sf", "shiny.router", 
                       "storr", "testthat", "testthis", "tidypredict", "viridis", "wdman",
                       "cowplot","flexdashboard", "formattable", "mindr", "pander","gganimate", "styler",
-                      "dummies", "gifski", "tailr"
+                      "dummies", "gifski", "tailr", "lobstr", "ggThemeAssist"
 )
 
 # dput(sort(unique(list_of_packages)))
@@ -19,29 +19,25 @@ list_of_packages <- unique(list_of_packages)
 
 new_packages <- list_of_packages[! list_of_packages %in% installed.packages()[,"Package"] ]
 
-if(length(new_packages)) install.packages(new_packages, quiet = TRUE)
+if(length(new_packages)) install.packages(new_packages)
 
-if (!require(devtools)) install.packages("devtools")
 
 # It seems hugo installed for root user and other users need to install their own hugo
 # while (!file.exists("/root/bin/hugo")) {
 #   blogdown::install_hugo()
 # }
 
-devtools::install_github("rstudio/radix")
+devtools::install_github("rstudio/distill")
 
 devtools::install_github('shizidushu/hfun')
-devtools::install_github("r-lib/lobstr")
-devtools::install_github("r-lib/rlang", build_vignettes = TRUE)
-
 
 devtools::install_github('mwip/beautifyR')
-devtools::install_github("calligross/ggthemeassist")
 devtools::install_github("lbusett/insert_table")
 devtools::install_github("gadenbuie/regexplain")
 devtools::install_github("lorenzwalthert/strcode")
 devtools::install_github("thomasp85/patchwork")
 
+#devtools::install_github("r-lib/rlang", build_vignettes = TRUE)
 #devtools::install_github("cosname/recharts")
 #devtools::install_github("JohnCoene/echarts4r")
 
