@@ -21,7 +21,7 @@ new_packages <- list_of_packages[! list_of_packages %in% installed.packages()[,"
 
 if(length(new_packages)) install.packages(new_packages, quiet = TRUE)
 
-update.packages(ask=FALSE)
+install.packages(attr(old.packages(), "dimnames")[[1]])
 
 devtools::install_github('shizidushu/hfun')
 devtools::install_github('bbc/bbplot')
