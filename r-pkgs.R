@@ -10,7 +10,7 @@ list_of_packages <- c("car", "config",  "devtools", "dplyr", "DT",
                       "purrr", "Rcpp", "readr", "readxl", "rebus", "redux", 
                       "rlang", "rmarkdown", "shinydashboard", "shinyjs", "reticulate",
                       "shinythemes", "showtext", "sjmisc", "stringr", "rlist",
-                      "tidyr", "tidyverse", "urltools", "wordcloud2", "writexl", "XML", "blastula"
+                      "tidyr", "tidyverse", "urltools", "wordcloud2", "writexl", "XML", "blastula", "shinyWidgets"
 )
 
 # dput(sort(unique(list_of_packages)))
