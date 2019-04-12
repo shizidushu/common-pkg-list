@@ -1,7 +1,7 @@
 # install package that meant to be used
 if (!require(devtools)) install.packages("devtools")
 
-remotes::install_github("r-lib/remotes")
+# remotes::install_github("r-lib/remotes")
 
 list_of_packages <- c("blastula", "car", "config", "devtools", "dplyr", "DT", "forcats", 
                       "future", "ggforce", "ggplot2", "ggpubr", "ggrepel", "ggthemes", 
