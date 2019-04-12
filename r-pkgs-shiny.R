@@ -1,7 +1,6 @@
 # install package that meant to be used
 if (!require(devtools)) install.packages("devtools")
 
-remotes::install_github("r-lib/remotes")
 
 list_of_packages <- c("plotly", "shinydashboard", "shinyjs", "shinythemes", "shinyWidgets")
 
@@ -16,5 +15,6 @@ if(length(new_packages)) install.packages(new_packages, quiet = TRUE)
 install.packages(attr(old.packages(), "dimnames")[[1]])
 
 
-devtools::install_github('bbc/bbplot', quiet = TRUE)
+remotes::install_github("r-lib/remotes")
+remotes::install_github('bbc/bbplot', quiet = TRUE)
 remotes::install_github("rstudio/gt", quiet = TRUE)
