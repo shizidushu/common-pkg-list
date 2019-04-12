@@ -17,5 +17,5 @@ if(length(new_packages)) install.packages(new_packages, repo = 'https://cran.rst
 
 
 install.packages('remotes', repo = 'https://cran.rstudio.com/')
-remotes::install_github('bbc/bbplot', quiet = TRUE)
-remotes::install_github("rstudio/gt", quiet = TRUE)
+remotes::install_github('bbc/bbplot')
+remotes::install_github("rstudio/gt")
