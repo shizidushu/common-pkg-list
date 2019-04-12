@@ -3,17 +3,15 @@ if (!require(devtools)) install.packages("devtools")
 
 remotes::install_github("r-lib/remotes")
 
-list_of_packages <- c("car", "config",  "devtools", "dplyr", "DT", 
-                      "forcats",  "future", 
-                      "ggplot2", "ggforce", "ggrepel", "ggpubr", "ggthemes", "glue", "htmltools", 
-                      "htmlwidgets", "httpuv", "httr", "jose", "jsonlite", "knitr", 
-                      "lubridate", "magrittr", "mailR", "odbc", "openxlsx", 
-                      "optparse",  "plotly", "plumber", "pool", "promises", 
-                      "purrr", "Rcpp", "readr", "readxl", "rebus", "redux", 
-                      "rlang", "rmarkdown", "shinydashboard", "shinyjs", "reticulate",
-                      "shinythemes", "showtext", "sjmisc", "stringr", "rlist",
-                      "tidyr", "tidyverse", "urltools", "wordcloud2", "writexl", "XML", "blastula", "shinyWidgets"
-)
+list_of_packages <- c("blastula", "car", "config", "devtools", "dplyr", "DT", "forcats", 
+                      "future", "ggforce", "ggplot2", "ggpubr", "ggrepel", "ggthemes", 
+                      "glue", "htmltools", "htmlwidgets", "httpuv", "httr", "jose", 
+                      "jsonlite", "knitr", "lubridate", "magrittr", "mailR", "odbc", 
+                      "openxlsx", "optparse", "plotly", "plumber", "pool", "promises", 
+                      "purrr", "Rcpp", "readr", "readxl", "rebus", "redux", "reticulate", 
+                      "rlang", "rlist", "rmarkdown", "shinydashboard", "shinyjs", "shinythemes", 
+                      "shinyWidgets", "showtext", "sjmisc", "stringr", "tidyr", "tidyverse", 
+                      "urltools", "wordcloud2", "writexl", "XML")
 
 # dput(sort(unique(list_of_packages)))
 
@@ -25,8 +23,8 @@ if(length(new_packages)) install.packages(new_packages, quiet = TRUE)
 
 install.packages(attr(old.packages(), "dimnames")[[1]])
 
-devtools::install_github('shizidushu/hfun')
-devtools::install_github('bbc/bbplot')
-remotes::install_github("rstudio/gt")
+devtools::install_github('shizidushu/hfun', quiet = TRUE)
+devtools::install_github('bbc/bbplot', quiet = TRUE)
+remotes::install_github("rstudio/gt", quiet = TRUE)
 
 
