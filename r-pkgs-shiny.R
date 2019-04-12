@@ -16,5 +16,5 @@ install.packages(attr(old.packages(), "dimnames")[[1]], repo = 'https://cran.rst
 
 
 install.packages('remotes', repo = 'https://cran.rstudio.com/')
-remotes::install_github('bbc/bbplot', repo = 'https://cran.rstudio.com/', quiet = TRUE)
-remotes::install_github("rstudio/gt", repo = 'https://cran.rstudio.com/', quiet = TRUE)
+remotes::install_github('bbc/bbplot', quiet = TRUE)
+remotes::install_github("rstudio/gt", quiet = TRUE)
