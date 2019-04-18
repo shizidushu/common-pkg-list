@@ -1,15 +1,16 @@
 # experimental
 
 
-list_of_packages <- c("addinslist", "blogdown", "colorspace", "colourpicker", "cowplot", 
-                      "cronR", "dbplyr", "DiagrammeR", "dummies", "ezknitr", "faraway", 
-                      "flexdashboard", "formattable", "gganimate", "ggedit", "ggmap", 
-                      "ggstatsplot", "gifski", "highcharter", "hms", "ISLR", "leaps", 
-                      "lobstr", "magick", "metricsgraphics", "mindr", "pander", "pixiedust", 
-                      "quantmod", "ranger", "rattle", "reprex", "rio", "rJava", "RJDBC", 
-                      "ROCR", "RPostgreSQL", "RSelenium", "sf", "storr", "styler", 
-                      "tailr", "testthat", "testthis", "tidypredict", "viridis", "wdman", 
-                      "yardstick")
+list_of_packages <- c("addinslist", "blogdown", "car", "clValid", "colorspace", "colourpicker", 
+                      "cowplot", "cronR", "dbplyr", "DiagrammeR", "dummies", "ezknitr", 
+                      "faraway", "flexdashboard", "formattable", "gganimate", "ggedit", 
+                      "ggforce", "ggmap", "ggpubr", "ggrepel", "ggstatsplot", "ggthemes", 
+                      "gifski", "highcharter", "hms", "ISLR", "leaps", "lobstr", "magick", 
+                      "metricsgraphics", "mindr", "pander", "pixiedust", "quantmod", 
+                      "ranger", "rattle", "reprex", "rio", "rJava", "RJDBC", "ROCR", 
+                      "RPostgreSQL", "RSelenium", "sf", "storr", "styler", "tailr", 
+                      "testthat", "testthis", "tidypredict", "viridis", "wdman", "yardstick"
+)
 
 # dput(sort(unique(list_of_packages)))
 
