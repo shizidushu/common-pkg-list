@@ -2,14 +2,13 @@
 if (!require(devtools)) install.packages("devtools")
 
 
-list_of_packages <- c("blastula", "brms", "caret", "config", "devtools", "dplyr", 
-                      "forcats", "future", "ggplot2", "glue", "httpuv", "httr", "jose", 
-                      "jsonlite", "JuliaCall", "knitr", "loggit", "lubridate", "magrittr", 
-                      "mailR", "odbc", "openxlsx", "optparse", "plumber", "pool", "promises", 
-                      "purrr", "Rcpp", "readr", "readxl", "rebus", "redux", "reticulate", 
-                      "rlang", "rlist", "rmarkdown", "rpart", "rpart.plot", "showtext", 
-                      "sjmisc", "stringr", "tidyr", "tidyverse", "urltools", "writexl", 
-                      "XML")
+
+
+list_of_packages <- c("blastula", "brms", "caret", "config", "devtools", "future", 
+                      "glue", "jose", "JuliaCall", "knitr", "loggit", "mailR", "odbc", 
+                      "openxlsx", "optparse", "plumber", "pool", "promises", "ranger", 
+                      "Rcpp", "readxl", "rebus", "redux", "reticulate", "rlist", "rmarkdown", 
+                      "rpart", "tidyverse", "writexl", "XML")
 
 # dput(sort(unique(list_of_packages)))
 

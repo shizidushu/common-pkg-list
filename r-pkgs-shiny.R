@@ -1,10 +1,10 @@
 # install package that meant to be used
 if (!require(devtools)) install.packages("devtools", repo = 'https://cran.rstudio.com/')
 
-
+# only or mostly used in shiny app
 list_of_packages <- c("crosstalk", "DT", "dygraphs", "ggThemeAssist", "htmltools", 
-                      "htmlwidgets", "leaflet", "plotly", "shiny.router", "shinydashboard", 
-                      "shinyjs", "shinythemes", "shinyWidgets", "wordcloud2")
+                      "htmlwidgets", "leaflet",  "shiny.router", "shinydashboard", 
+                      "shinyjs", "shinythemes", "shinyWidgets",  "httpuv", "DiagrammeR", "highcharter")
 
 # dput(sort(unique(list_of_packages)))
 
