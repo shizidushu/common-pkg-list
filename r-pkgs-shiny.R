@@ -2,7 +2,9 @@
 if (!require(devtools)) install.packages("devtools", repo = 'https://cran.rstudio.com/')
 
 
-list_of_packages <- c("plotly", "shinydashboard", "shinyjs", "shinythemes", "shinyWidgets")
+list_of_packages <- c("crosstalk", "DT", "dygraphs", "ggThemeAssist", "htmltools", 
+                      "htmlwidgets", "leaflet", "plotly", "shiny.router", "shinydashboard", 
+                      "shinyjs", "shinythemes", "shinyWidgets", "wordcloud2")
 
 # dput(sort(unique(list_of_packages)))
 

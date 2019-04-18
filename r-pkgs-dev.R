@@ -1,17 +1,15 @@
 # experimental
 
 
-list_of_packages <- c("addinslist", "blogdown", "brms", "caret", "clValid", "colorspace", 
-                      "colourpicker", "cowplot", "cronR", "crosstalk", "dbplyr", "DiagrammeR", 
-                      "dygraphs", "ezknitr", "faraway", "formattable", "ggedit", "ggmap", 
-                      "ggstatsplot", "highcharter", "hms", "ISLR", "JuliaCall", "leaflet", 
-                      "magick", "metricsgraphics", "pixiedust", "pryr", "quantmod", "ranger", 
-                      "rattle", "reprex", "reticulate", "rio", "rJava", "RJDBC", "ROCR", 
-                      "rpart.plot", "RPostgreSQL", "RSelenium", "sf", "shiny.router", 
-                      "storr", "testthat", "testthis", "tidypredict", "viridis", "wdman",
-                      "cowplot","flexdashboard", "formattable", "mindr", "pander","gganimate", "styler",
-                      "dummies", "gifski", "tailr", "lobstr", "ggThemeAssist", "leaps", "yardstick"
-)
+list_of_packages <- c("addinslist", "blogdown", "colorspace", "colourpicker", "cowplot", 
+                      "cronR", "dbplyr", "DiagrammeR", "dummies", "ezknitr", "faraway", 
+                      "flexdashboard", "formattable", "gganimate", "ggedit", "ggmap", 
+                      "ggstatsplot", "gifski", "highcharter", "hms", "ISLR", "leaps", 
+                      "lobstr", "magick", "metricsgraphics", "mindr", "pander", "pixiedust", 
+                      "quantmod", "ranger", "rattle", "reprex", "rio", "rJava", "RJDBC", 
+                      "ROCR", "RPostgreSQL", "RSelenium", "sf", "storr", "styler", 
+                      "tailr", "testthat", "testthis", "tidypredict", "viridis", "wdman", 
+                      "yardstick")
 
 # dput(sort(unique(list_of_packages)))
 
