@@ -1,16 +1,15 @@
 # experimental
 
 
-list_of_packages <- c("addinslist", "blogdown", "car", "clValid", "colorspace", "colourpicker", 
-                      "cowplot", "cronR", "dummies", "ezknitr", "faraway", "flexdashboard", 
-                      "formattable", "gganimate", "ggedit", "ggforce", "ggmap", "ggpubr", 
-                      "ggrepel", "ggstatsplot", "ggthemes", "gifski", "ISLR", "leaps", 
-                      "lobstr", "magick", "metricsgraphics", "mindr", "pander", "pixiedust", 
-                      "plotly", "quantmod", "rattle", "Rcpp", "rio", "rJava", "RJDBC", 
-                      "ROCR", "rpart.plot", "RPostgreSQL", "RSelenium", "sf", "showtext", 
-                      "sjmisc", "storr", "styler", "tailr", "testthat", "testthis", 
-                      "tidypredict", "urltools", "viridis", "wdman", "wordcloud2", 
-                      "yardstick")
+list_of_packages <- c("blogdown", "car", "clValid", "colorspace", "cowplot", "cronR", 
+                      "DT", "dummies", "ezknitr", "faraway", "flexdashboard", "formattable", 
+                      "gganimate", "ggforce", "ggmap", "ggpubr", "ggrepel", "ggstatsplot", 
+                      "ggthemes", "gifski", "ISLR", "leaps", "lobstr", "magick", "mindr", 
+                      "pander", "pixiedust", "plotly", "quantmod", "rattle", "Rcpp", 
+                      "rio", "rJava", "RJDBC", "ROCR", "rpart.plot", "RPostgreSQL", 
+                      "RSelenium", "sf", "showtext", "sjmisc", "storr", "styler", "tailr", 
+                      "testthat", "testthis", "tidypredict", "urltools", "viridis", 
+                      "wdman", "wordcloud2", "yardstick")
 
 # dput(sort(unique(list_of_packages)))
 
