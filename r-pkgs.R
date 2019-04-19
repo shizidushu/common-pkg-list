@@ -29,5 +29,5 @@ if(length(new_packages)) install.packages(new_packages, repo = 'https://cran.rst
 
 
 devtools::install_github('shizidushu/hfun')
-
-
+remotes::install_github('bbc/bbplot')
+remotes::install_github("rstudio/gt")
