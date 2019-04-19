@@ -8,12 +8,12 @@ if (!require(remotes)) {
 
 if (!require(devtools)) install.packages("devtools", repo = 'https://cran.rstudio.com/')
 
-
-list_of_packages <- c("blastula", "brms", "caret", "config", "future", "glue", "jose", 
-                      "JuliaCall", "knitr", "loggit", "mailR", "odbc", "openxlsx", 
-                      "optparse", "plumber", "promises", "ranger", "readxl", "rebus", 
-                      "redux", "reticulate", "rlist", "rmarkdown", "rpart", "tidyverse", 
-                      "writexl", "XML")
+# currently required by airflow,  plumber or shiny in application
+list_of_packages <- c("config", "DT", "future", "glue", "htmltools", "htmlwidgets", 
+                      "httpuv", "jose", "JuliaCall", "knitr", "loggit", "mailR", "odbc", 
+                      "openxlsx", "optparse", "plotly", "plumber", "pool", "promises", 
+                      "readxl", "redux", "rlist", "rmarkdown", "shinydashboard", "shinyWidgets", 
+                      "tidyverse", "wordcloud2", "writexl", "XML")
 
 # dput(sort(unique(list_of_packages)))
 
