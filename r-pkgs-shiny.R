@@ -1,4 +1,11 @@
 # install package that meant to be used
+
+if (!require(remotes)) {
+  install.packages('remotes', repo = 'https://cran.rstudio.com/')
+} else if (packageVersion("remotes") < "2.0.4") {
+  install.packages('remotes', repo = 'https://cran.rstudio.com/')
+}
+
 if (!require(devtools)) install.packages("devtools", repo = 'https://cran.rstudio.com/')
 
 # only or mostly used in shiny app
@@ -19,6 +26,6 @@ if(length(new_packages)) install.packages(new_packages, repo = 'https://cran.rst
 ## install.packages(attr(old.packages(), "dimnames")[[1]], repo = 'https://cran.rstudio.com/')
 
 
-install.packages('remotes', repo = 'https://cran.rstudio.com/')
+
 remotes::install_github('bbc/bbplot')
 remotes::install_github("rstudio/gt")

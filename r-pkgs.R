@@ -6,7 +6,7 @@ if (!require(remotes)) {
   install.packages('remotes', repo = 'https://cran.rstudio.com/')
 }
 
-if (!require(devtools)) install.packages("devtools")
+if (!require(devtools)) install.packages("devtools", repo = 'https://cran.rstudio.com/')
 
 
 list_of_packages <- c("blastula", "brms", "caret", "config", "future", "glue", "jose", 
