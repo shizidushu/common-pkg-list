@@ -6,10 +6,11 @@ list_of_packages <- c("addinslist", "blogdown", "car", "clValid", "colorspace", 
                       "formattable", "gganimate", "ggedit", "ggforce", "ggmap", "ggpubr", 
                       "ggrepel", "ggstatsplot", "ggthemes", "gifski", "ISLR", "leaps", 
                       "lobstr", "magick", "metricsgraphics", "mindr", "pander", "pixiedust", 
-                      "plotly", "quantmod", "rattle", "rio", "rJava", "RJDBC", "ROCR", 
-                      "rpart.plot", "RPostgreSQL", "RSelenium", "sf", "showtext", "sjmisc", 
-                      "storr", "styler", "tailr", "testthat", "testthis", "tidypredict", 
-                      "urltools", "viridis", "wdman", "wordcloud2", "yardstick")
+                      "plotly", "quantmod", "rattle", "Rcpp", "rio", "rJava", "RJDBC", 
+                      "ROCR", "rpart.plot", "RPostgreSQL", "RSelenium", "sf", "showtext", 
+                      "sjmisc", "storr", "styler", "tailr", "testthat", "testthis", 
+                      "tidypredict", "urltools", "viridis", "wdman", "wordcloud2", 
+                      "yardstick")
 
 # dput(sort(unique(list_of_packages)))
 

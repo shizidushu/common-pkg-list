@@ -1,14 +1,19 @@
 # install package that meant to be used
+
+if (!require(remotes)) {
+  install.packages('remotes', repo = 'https://cran.rstudio.com/')
+} else if (packageVersion("remotes") < "2.0.4") {
+  install.packages('remotes', repo = 'https://cran.rstudio.com/')
+}
+
 if (!require(devtools)) install.packages("devtools")
 
 
-
-
-list_of_packages <- c("blastula", "brms", "caret", "config", "devtools", "future", 
-                      "glue", "jose", "JuliaCall", "knitr", "loggit", "mailR", "odbc", 
-                      "openxlsx", "optparse", "plumber", "pool", "promises", "ranger", 
-                      "Rcpp", "readxl", "rebus", "redux", "reticulate", "rlist", "rmarkdown", 
-                      "rpart", "tidyverse", "writexl", "XML")
+list_of_packages <- c("blastula", "brms", "caret", "config", "future", "glue", "jose", 
+                      "JuliaCall", "knitr", "loggit", "mailR", "odbc", "openxlsx", 
+                      "optparse", "plumber", "promises", "ranger", "readxl", "rebus", 
+                      "redux", "reticulate", "rlist", "rmarkdown", "rpart", "tidyverse", 
+                      "writexl", "XML")
 
 # dput(sort(unique(list_of_packages)))
 
@@ -21,7 +26,8 @@ if(length(new_packages)) install.packages(new_packages, repo = 'https://cran.rst
 # update old packages
 ## install.packages(attr(old.packages(), "dimnames")[[1]], repo = 'https://cran.rstudio.com/')
 
-install.packages('remotes', repo = 'https://cran.rstudio.com/')
+
+
 devtools::install_github('shizidushu/hfun')
 
 
