@@ -8,11 +8,9 @@ if (!require(remotes)) {
 
 if (!require(devtools)) install.packages("devtools", repo = 'https://cran.rstudio.com/')
 
-# only or mostly used in shiny app
-list_of_packages <- c("addinslist", "colourpicker", "crosstalk", "DiagrammeR", "dygraphs", 
-                      "ggedit", "ggThemeAssist", "highcharter", "htmltools", "htmlwidgets", 
-                      "httpuv", "leaflet", "metricsgraphics", "pool", "shiny.router", 
-                      "shinydashboard", "shinyjs", "shinythemes", "shinyWidgets")
+# packages used in rstudio
+list_of_packages <- c("addinslist", "blogdown", "bookdown", "colourpicker", "ggedit", 
+                      "ggThemeAssist", "styler", "testthat", "testthis")
 
 # dput(sort(unique(list_of_packages)))
 
@@ -25,7 +23,7 @@ if(length(new_packages)) install.packages(new_packages, repo = 'https://cran.rst
 # update old packages
 ## install.packages(attr(old.packages(), "dimnames")[[1]], repo = 'https://cran.rstudio.com/')
 
-
-
-remotes::install_github('bbc/bbplot')
-remotes::install_github("rstudio/gt")
+devtools::install_github('mwip/beautifyR')
+devtools::install_github("lbusett/insert_table")
+devtools::install_github("gadenbuie/regexplain")
+devtools::install_github("lorenzwalthert/strcode")
