@@ -8,11 +8,11 @@ if (!require(remotes)) {
 
 if (!require(devtools)) install.packages("devtools", repo = 'https://cran.rstudio.com/')
 
-# other packages
+# - rstudio
 list_of_packages <- c("colorspace", "cowplot", "cronR", "DiagrammeR", "dummies", 
                       "dygraphs", "faraway", "gifski", "highcharter", "magick", "metricsgraphics", 
                       "pixiedust", "rattle", "Rcpp", "rio", "RJDBC", "RPostgreSQL", 
-                      "RSelenium", "sf", "storr", "tailr", "urltools", "wdman")
+                      "RSelenium", "sf", "storr", "tailr", "urltools", "wdman", "loggit")
 
 
 

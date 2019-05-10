@@ -8,13 +8,8 @@ if (!require(remotes)) {
 
 if (!require(devtools)) install.packages("devtools", repo = 'https://cran.rstudio.com/')
 
-# - ariflow
-# - plumber
-# - shiny
-list_of_packages <- c("config", "DT", "future", "glue", "htmltools", "htmlwidgets", 
-                      "httpuv", "jose", "JuliaCall", "knitr", "loggit", "mailR", "odbc", 
-                      "openxlsx", "optparse", "plumber", "pool", "readxl", "rebus", 
-                      "redux", "rlist", "rmarkdown", "tidyverse", "writexl", "XML")
+# -shiny
+list_of_packages <- c("plotly", "promises", "shinydashboard", "shinyWidgets", "wordcloud2")
 
 # dput(sort(unique(list_of_packages)))
 
@@ -27,8 +22,5 @@ if(length(new_packages)) install.packages(new_packages, repo = 'https://cran.rst
 # update old packages
 ## install.packages(attr(old.packages(), "dimnames")[[1]], repo = 'https://cran.rstudio.com/')
 
-
-
-devtools::install_github('shizidushu/hfun')
 remotes::install_github('bbc/bbplot')
 remotes::install_github("rstudio/gt")
