@@ -8,7 +8,7 @@ if (!require(remotes)) {
 
 if (!require(devtools)) install.packages("devtools", repo = 'https://cran.rstudio.com/')
 
-# packages used in rstudio
+# -rstudio
 list_of_packages <- c("addinslist", "blogdown", "bookdown", "colourpicker", "ggedit", 
                       "ggThemeAssist", "styler", "testthat", "testthis")
 
