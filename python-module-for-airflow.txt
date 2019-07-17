@@ -3,4 +3,3 @@ bcrypt
 flask-bcrypt
 suds==0.4
 suds-jurko==0.6
-client

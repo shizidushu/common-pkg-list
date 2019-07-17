@@ -1,4 +1,5 @@
 wheel
+client
 pymssql
 pyodbc
 numpy
