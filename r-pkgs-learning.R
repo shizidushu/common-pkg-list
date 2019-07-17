@@ -1,11 +1,12 @@
 # experimental
+# These packages is mainly used when I'm learning data science.
+# Not for production now
 
 
 # - rstudio
 list_of_packages <- c("arules", "arulesViz", "brms", "car", "caret", "clValid", "ezknitr", 
-                      "gganimate", "ggforce", "ggstatsplot", "ISLR", "leaps", "lobstr", 
-                      "mindr", "quantmod", "ranger", "ROCR", "rpart", 
-                      "rpart.plot", "tidypredict", "yardstick")
+                      "ggstatsplot", "ISLR", "leaps", "lobstr", "quantmod", "ranger", 
+                      "ROCR", "rpart", "rpart.plot", "tidypredict", "yardstick")
 
 # dput(sort(unique(list_of_packages)))
 

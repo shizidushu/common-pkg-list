@@ -1,4 +1,6 @@
 # install package that meant to be used
+# the basic packages
+# For production
 
 if (!require(remotes)) {
   install.packages('remotes', repo = 'https://cran.rstudio.com/')

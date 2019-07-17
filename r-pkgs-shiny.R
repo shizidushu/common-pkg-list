@@ -1,4 +1,5 @@
-# install package that meant to be used
+# install package that might be used in shiny server
+# For production
 
 if (!require(remotes)) {
   install.packages('remotes', repo = 'https://cran.rstudio.com/')

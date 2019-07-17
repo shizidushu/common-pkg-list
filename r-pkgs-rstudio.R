@@ -1,4 +1,4 @@
-# install package that meant to be used
+# install package only used in Rstudio IDE
 
 if (!require(remotes)) {
   install.packages('remotes', repo = 'https://cran.rstudio.com/')

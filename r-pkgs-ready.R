@@ -1,4 +1,5 @@
-# install package that meant to be used
+# install package that I at least know a bit
+# not ready for production
 
 if (!require(remotes)) {
   install.packages('remotes', repo = 'https://cran.rstudio.com/')
@@ -9,9 +10,9 @@ if (!require(remotes)) {
 if (!require(devtools)) install.packages("devtools", repo = 'https://cran.rstudio.com/')
 
 # -rstudio
-list_of_packages <- c("crosstalk", "flexdashboard", "formattable", "ggmap", "ggpubr", 
-                      "ggrepel", "ggthemes", "leaflet", "pander", "showtext", "viridis"
-)
+list_of_packages <- c("crosstalk", "flexdashboard", "formattable", "gganimate", "ggforce", 
+                      "ggmap", "ggpubr", "ggrepel", "ggthemes", "leaflet", "mindr", 
+                      "pander", "showtext", "viridis")
 
 # dput(sort(unique(list_of_packages)))
 
