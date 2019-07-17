@@ -1,0 +1,6 @@
+docker
+bcrypt
+flask-bcrypt
+client
+suds==0.4
+suds-jurko==0.6
