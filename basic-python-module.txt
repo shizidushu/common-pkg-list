@@ -3,3 +3,4 @@ pyodbc
 numpy
 scipy
 pandas
+premailer
