@@ -4,7 +4,7 @@
 
 
 # - rstudio
-list_of_packages <- c("arules", "arulesViz", "brms", "car", "caret", "clValid", "ezknitr", 
+list_of_packages <- c("arules", "arulesViz", "brms", "car", "clValid", "ezknitr", 
                       "ggstatsplot", "ISLR", "leaps", "lobstr", "quantmod", "ranger", 
                       "ROCR", "rpart", "rpart.plot", "tidypredict", "yardstick")
 
