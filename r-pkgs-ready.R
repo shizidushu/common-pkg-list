@@ -10,9 +10,10 @@ if (!require(remotes)) {
 if (!require(devtools)) install.packages("devtools", repo = 'https://cran.rstudio.com/')
 
 # -rstudio
-list_of_packages <- c("crosstalk", "flexdashboard", "formattable", "gganimate", "ggforce", 
-                      "ggmap", "ggpubr", "ggrepel", "ggthemes", "leaflet", "mindr", 
-                      "pander", "showtext", "viridis", "caret")
+list_of_packages <- c("caret", "crosstalk", "flexdashboard", "formattable", "gganimate", 
+                      "ggforce", "ggmap", "ggpubr", "ggrepel", "ggstatsplot", "ggthemes", 
+                      "leaflet", "mindr", "pander", "ranger", "rpart", "rpart.plot", 
+                      "showtext", "viridis")
 
 # dput(sort(unique(list_of_packages)))
 
