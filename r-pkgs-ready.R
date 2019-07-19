@@ -12,7 +12,7 @@ if (!require(devtools)) install.packages("devtools", repo = 'https://cran.rstudi
 # -rstudio
 list_of_packages <- c("caret", "crosstalk", "flexdashboard", "formattable", "gganimate", 
                       "ggforce", "ggmap", "ggpubr", "ggrepel", "ggstatsplot", "ggthemes", 
-                      "leaflet", "mindr", "pander", "ranger")
+                      "leaflet", "mindr", "pander",  "rpart", "rpart.plot")
 
 # dput(sort(unique(list_of_packages)))
 
