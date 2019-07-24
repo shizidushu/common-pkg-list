@@ -17,7 +17,7 @@ list_of_packages <- c("blastula", "config", "DT", "future", "glue", "htmltools",
                       "htmlwidgets", "httpuv", "jose", "JuliaCall", "knitr", "loggit", 
                       "mailR", "odbc", "openxlsx", "optparse", "plumber", "pool", "readxl", 
                       "rebus", "redux", "reticulate", "rlist", "rmarkdown", "sjmisc", 
-                      "snakecase", "tidyverse", "wordcloud2", "writexl", "XML")
+                      "snakecase", "tidyverse", "wordcloud2", "writexl", "XML", "plotly")
 
 # dput(sort(unique(list_of_packages)))
 
