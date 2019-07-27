@@ -10,7 +10,7 @@ if (!require(remotes)) {
 if (!require(devtools)) install.packages("devtools", repo = 'https://cran.rstudio.com/')
 
 # -rstudio
-list_of_packages <- c("crosstalk", "flexdashboard", "formattable", "gganimate", 
+list_of_packages <- c("flexdashboard", "formattable", "gganimate", 
                       "ggforce", "ggmap", "ggpubr", "ggrepel", "ggstatsplot", "ggthemes", 
                       "leaflet", "mindr", "pander")
 
@@ -20,7 +20,7 @@ list_of_packages <- unique(list_of_packages)
 
 new_packages <- list_of_packages[! list_of_packages %in% installed.packages()[,"Package"] ]
 
-if(length(new_packages)) install.packages(new_packages, repo = 'https://cran.rstudio.com/', quiet = TRUE)
+if(length(new_packages)) install.packages(new_packages, repo = 'https://cran.rstudio.com/')
 
 # update old packages
 ## install.packages(attr(old.packages(), "dimnames")[[1]], repo = 'https://cran.rstudio.com/')

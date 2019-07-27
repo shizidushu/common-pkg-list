@@ -17,7 +17,7 @@ list_of_packages <- c("blastula", "config", "DT", "future", "glue", "htmltools",
                       "htmlwidgets", "httpuv", "jose", "JuliaCall", "knitr", "loggit", 
                       "mailR", "odbc", "openxlsx", "optparse", "plumber", "pool", "readxl", 
                       "rebus", "redux", "reticulate", "rlist", "rmarkdown", "sjmisc", 
-                      "snakecase", "tidyverse", "wordcloud2", "writexl", "XML", "plotly")
+                      "snakecase", "tidyverse", "wordcloud2", "writexl", "XML", "plotly", "RPostgreSQL")
 
 # dput(sort(unique(list_of_packages)))
 
@@ -25,7 +25,7 @@ list_of_packages <- unique(list_of_packages)
 
 new_packages <- list_of_packages[! list_of_packages %in% installed.packages()[,"Package"] ]
 
-if(length(new_packages)) install.packages(new_packages, repo = 'https://cran.rstudio.com/', quiet = TRUE)
+if(length(new_packages)) install.packages(new_packages, repo = 'https://cran.rstudio.com/')
 
 # update old packages
 ## install.packages(attr(old.packages(), "dimnames")[[1]], repo = 'https://cran.rstudio.com/')

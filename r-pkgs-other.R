@@ -1,4 +1,4 @@
-# install package that meant to be used
+# occasionally needed. Do not install it with container now.
 
 if (!require(remotes)) {
   install.packages('remotes', repo = 'https://cran.rstudio.com/')
@@ -11,8 +11,8 @@ if (!require(devtools)) install.packages("devtools", repo = 'https://cran.rstudi
 # - rstudio
 list_of_packages <- c("colorspace", "cowplot", "cronR", "DiagrammeR", "dummies", 
                       "dygraphs", "faraway", "gifski", "highcharter", "magick", "metricsgraphics", 
-                      "pixiedust", "rattle", "Rcpp", "rio", "RJDBC", "RPostgreSQL", 
-                      "RSelenium", "sf", "storr", "tailr", "urltools", "wdman", "loggit")
+                      "pixiedust", "rattle", "Rcpp", "rio", "RJDBC",  
+                      "RSelenium", "sf", "storr", "tailr", "urltools", "wdman")
 
 
 
@@ -22,7 +22,7 @@ list_of_packages <- unique(list_of_packages)
 
 new_packages <- list_of_packages[! list_of_packages %in% installed.packages()[,"Package"] ]
 
-if(length(new_packages)) install.packages(new_packages, repo = 'https://cran.rstudio.com/', quiet = TRUE)
+if(length(new_packages)) install.packages(new_packages, repo = 'https://cran.rstudio.com/')
 
 # update old packages
 ## install.packages(attr(old.packages(), "dimnames")[[1]], repo = 'https://cran.rstudio.com/')
