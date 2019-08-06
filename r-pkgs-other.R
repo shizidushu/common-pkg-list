@@ -12,12 +12,13 @@ if (!require(devtools)) install.packages("devtools", repo = 'https://cran.rstudi
 list_of_packages <- c("blastula", "bookdownplus", "car", "clValid", "colorspace", 
                       "colourpicker", "cowplot", "cronR", "crosstalk", "DiagrammeR", 
                       "dummies", "dygraphs", "ezknitr", "faraway", "flexdashboard", 
-                      "gganimate", "ggedit", "ggforce", "ggpubr", "ggThemeAssist", 
-                      "gifski", "highcharter", "ISLR", "leaflet", "leaps", "lobstr", 
-                      "magick", "metricsgraphics", "mindr", "pander", "pixiedust", 
-                      "quantmod", "rattle", "Rcpp", "rio", "RJDBC", "ROCR", "RSelenium", 
-                      "sf", "shiny.router", "shinythemes", "showtext", "sjmisc", "storr", 
-                      "styler", "tailr", "urltools", "viridis", "wdman")
+                      "formattable", "gganimate", "ggedit", "ggforce", "ggmap", "ggpubr", 
+                      "ggrepel", "ggThemeAssist", "ggthemes", "gifski", "highcharter", 
+                      "ISLR", "leaflet", "leaps", "lobstr", "magick", "metricsgraphics", 
+                      "mindr", "pander", "pixiedust", "quantmod", "rattle", "Rcpp", 
+                      "rio", "RJDBC", "ROCR", "RSelenium", "sf", "shiny.router", "shinythemes", 
+                      "showtext", "sjmisc", "storr", "styler", "tailr", "urltools", 
+                      "viridis", "wdman")
 
 
 
