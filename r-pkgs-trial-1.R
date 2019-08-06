@@ -27,7 +27,7 @@ install.packages("rstan", type = "source", quiet = TRUE)
 
 
 # -rstudio
-list_of_packages <- c("brms")
+list_of_packages <- c("brms", "caret")
 
 # dput(sort(unique(list_of_packages)))
 
