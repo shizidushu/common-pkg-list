@@ -9,10 +9,15 @@ if (!require(remotes)) {
 if (!require(devtools)) install.packages("devtools", repo = 'https://cran.rstudio.com/')
 
 # - rstudio
-list_of_packages <- c("colorspace", "cowplot", "cronR", "DiagrammeR", "dummies", 
-                      "dygraphs", "faraway", "gifski", "highcharter", "magick", "metricsgraphics", 
-                      "pixiedust", "rattle", "Rcpp", "rio", "RJDBC",  
-                      "RSelenium", "sf", "storr", "tailr", "urltools", "wdman")
+list_of_packages <- c("blastula", "bookdownplus", "car", "clValid", "colorspace", 
+                      "colourpicker", "cowplot", "cronR", "crosstalk", "DiagrammeR", 
+                      "dummies", "dygraphs", "ezknitr", "faraway", "flexdashboard", 
+                      "gganimate", "ggedit", "ggpubr", "ggThemeAssist", "gifski", "highcharter", 
+                      "ISLR", "leaps", "lobstr", "magick", "metricsgraphics", "mindr", 
+                      "pander", "pixiedust", "quantmod", "rattle", "Rcpp", "rio", "RJDBC", 
+                      "ROCR", "RSelenium", "sf", "shiny.router", "shinythemes", "showtext", 
+                      "sjmisc", "storr", "styler", "tailr", "urltools", "viridis", 
+                      "wdman")
 
 
 
@@ -31,6 +36,11 @@ if(length(new_packages)) install.packages(new_packages, repo = 'https://cran.rst
 devtools::install_github('shizidushu/hfun')
 
 
+devtools::install_github("thomasp85/patchwork")
+devtools::install_github('mwip/beautifyR')
+devtools::install_github("lbusett/insert_table")
+devtools::install_github("gadenbuie/regexplain")
+devtools::install_github("lorenzwalthert/strcode")
 #devtools::install_github("r-lib/rlang", build_vignettes = TRUE)
 #devtools::install_github("cosname/recharts")
 #devtools::install_github("JohnCoene/echarts4r")

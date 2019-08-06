@@ -27,9 +27,8 @@ install.packages("rstan", type = "source")
 
 
 # -rstudio
-list_of_packages <- c("flexdashboard", "formattable", "gganimate", 
-                      "ggforce", "ggmap", "ggpubr", "ggrepel", "ggstatsplot", "ggthemes", 
-                      "leaflet", "mindr", "pander")
+list_of_packages <- c("formattable", "ggforce", "ggmap", "ggrepel", 
+                      "ggstatsplot", "ggthemes", "leaflet")
 
 # dput(sort(unique(list_of_packages)))
 
@@ -42,4 +41,4 @@ if(length(new_packages)) install.packages(new_packages, repo = 'https://cran.rst
 # update old packages
 ## install.packages(attr(old.packages(), "dimnames")[[1]], repo = 'https://cran.rstudio.com/')
 
-devtools::install_github("thomasp85/patchwork")
+
