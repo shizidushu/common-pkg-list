@@ -27,7 +27,7 @@ install.packages("rstan", type = "source")
 
 
 # -rstudio
-list_of_packages <- c("ggstatsplot")
+list_of_packages <- c("tidymodels")
 
 # dput(sort(unique(list_of_packages)))
 
