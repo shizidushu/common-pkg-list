@@ -23,4 +23,3 @@ if(length(new_packages)) install.packages(new_packages, quiet = TRUE)
 
 
 devtools::install_github('shizidushu/hfun')
-devtools::install_github("rstudio/distill")

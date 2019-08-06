@@ -35,7 +35,7 @@ if(length(new_packages)) install.packages(new_packages, repo = 'https://cran.rst
 
 devtools::install_github('shizidushu/hfun')
 
-
+devtools::install_github("rstudio/distill")
 devtools::install_github("thomasp85/patchwork")
 devtools::install_github('mwip/beautifyR')
 devtools::install_github("lbusett/insert_table")
