@@ -27,8 +27,7 @@ install.packages("rstan", type = "source")
 
 
 # -rstudio
-list_of_packages <- c("formattable", "ggforce", "ggmap", "ggrepel", 
-                      "ggstatsplot", "ggthemes", "leaflet")
+list_of_packages <- c("formattable", "ggmap", "ggrepel", "ggstatsplot", "ggthemes")
 
 # dput(sort(unique(list_of_packages)))
 
