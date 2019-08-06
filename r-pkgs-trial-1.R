@@ -23,7 +23,7 @@ cat("\nCXX14FLAGS=-O3 -march=native -mtune=native -fPIC",
 Sys.setenv(MAKEFLAGS = paste0("-j", parallel::detectCores()))
 print(paste("MAKEFLAGS=", Sys.getenv("MAKEFLAGS")))
 
-install.packages("rstan", type = "source")
+install.packages("rstan", type = "source", quiet = TRUE)
 
 
 # -rstudio
