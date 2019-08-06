@@ -27,7 +27,7 @@ install.packages("rstan", type = "source")
 
 
 # -rstudio
-list_of_packages <- c("tidymodels")
+list_of_packages <- c("brms")
 
 # dput(sort(unique(list_of_packages)))
 
