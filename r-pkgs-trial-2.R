@@ -4,8 +4,8 @@
 
 
 # - rstudio
-list_of_packages <- c("arules", "arulesViz", "brms", "ggstatsplot", "ranger", "rpart", 
-                      "rpart.plot", "parsnip","tidymodels" )
+list_of_packages <- c("arules", "arulesViz", "ggstatsplot", "ranger", "rpart", 
+                      "rpart.plot", "tidymodels" )
 
 # dput(sort(unique(list_of_packages)))
 
