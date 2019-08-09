@@ -5,4 +5,5 @@ pyodbc
 numpy
 scipy
 pandas
-premailer
+sqlalchemy
+requests

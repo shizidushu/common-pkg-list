@@ -1,0 +1,10 @@
+pyjwt
+ujson
+email_validator
+aiofiles
+Jinja2
+python-multipart
+itsdangerous
+pyyaml
+uvicorn
+fastapi
