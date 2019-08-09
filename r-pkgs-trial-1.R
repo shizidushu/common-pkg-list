@@ -27,7 +27,8 @@ install.packages("rstan", type = "source", quiet = TRUE)
 
 
 # -rstudio
-list_of_packages <- c("arules", "arulesViz", "brms", "caret", "parsnip", "ranger", "rpart", "rpart.plot")
+list_of_packages <- c("arules", "arulesViz", "brms", "caret", "parsnip", "ranger", "rpart", "rpart.plot",
+                      "tidymodels")
 
 # dput(sort(unique(list_of_packages)))
 
