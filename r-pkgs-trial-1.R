@@ -36,7 +36,8 @@ list_of_packages <- unique(list_of_packages)
 
 new_packages <- list_of_packages[! list_of_packages %in% installed.packages()[,"Package"] ]
 
-if(length(new_packages)) install.packages(new_packages, repo = 'https://cran.rstudio.com/')
+# repo = 'https://cran.rstudio.com/',
+if(length(new_packages)) install.packages(new_packages, quiet = TRUE)
 
 # update old packages
 ## install.packages(attr(old.packages(), "dimnames")[[1]], repo = 'https://cran.rstudio.com/')
