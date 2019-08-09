@@ -9,3 +9,5 @@ pyyaml
 uvicorn
 fastapi
 rpy2
+tenacity
+emails
