@@ -16,7 +16,7 @@ if (!require(devtools)) install.packages("devtools", repo = 'https://cran.rstudi
 list_of_packages <- c("config", "DT", "future", "glue", "htmltools", 
                       "htmlwidgets", "httpuv", "jose", "JuliaCall", "knitr", "loggit", 
                       "mailR", "odbc", "openxlsx", "optparse", "plumber", "pool", "readxl", 
-                      "rebus", "redux", "reticulate", "rlist", "rmarkdown", 
+                      "rebus", "redux", "reticulate", "rlist", "rmarkdown", "sjmisc", 
                       "snakecase", "tidyverse", "wordcloud2", "writexl", "XML", "plotly", "RPostgreSQL")
 
 # dput(sort(unique(list_of_packages)))
