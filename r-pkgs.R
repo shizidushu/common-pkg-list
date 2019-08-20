@@ -15,7 +15,7 @@ if (!require(devtools)) install.packages("devtools", repo = 'https://cran.rstudi
 # - shiny
 list_of_packages <- c("config", "DT", "future", "glue", "htmltools", 
                       "htmlwidgets", "httpuv", "jose", "JuliaCall", "knitr", "loggit", 
-                      "mailR", "odbc", "openxlsx", "optparse", "plumber", "pool", "readxl", 
+                      "mailR", "odbc", "openxlsx", "optparse", "pool", "readxl", 
                       "rebus", "redux", "reticulate", "rlist", "rmarkdown", "sjmisc", 
                       "snakecase", "tidyverse", "wordcloud2", "writexl", "XML", "plotly", "RPostgreSQL")
 
@@ -30,5 +30,5 @@ if(length(new_packages)) install.packages(new_packages, repo = 'https://cran.rst
 # update old packages
 ## install.packages(attr(old.packages(), "dimnames")[[1]], repo = 'https://cran.rstudio.com/')
 
-
+devtools::install_github("trestletech/plumber")
 devtools::install_github('shizidushu/hfun')
