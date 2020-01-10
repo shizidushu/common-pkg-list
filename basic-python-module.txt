@@ -1,6 +1,5 @@
 wheel
 client
-pymssql
 pyodbc
 numpy
 scipy

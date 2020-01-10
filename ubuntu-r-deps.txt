@@ -1,0 +1,14 @@
+libcurl4-openssl-dev
+libxml2-dev
+libssl-dev
+libsodium-dev
+libmagick++-dev
+libfreetype6-dev
+default-jdk
+cargo
+libudunits2-dev
+libgdal-dev
+libglu1-mesa-dev
+xvfb
+gdal-bin
+libproj-dev
